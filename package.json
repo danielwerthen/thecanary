@@ -1,0 +1,23 @@
+{
+  "author": "Daniel Werthén <danielwerthen@gmail.com>",
+  "name": "thecanary",
+  "description": "Func.is example",
+  "version": "0.1.1",
+  "homepage": "http://func.is/examples/#the_canary",
+  "repository": {
+    "url": "https://github.com/danielwerthen/thecanary.git"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "funcis": ">0.1.x"
+  },
+  "devDependencies": {
+    "mocha": "1.6.x",
+    "should": "x"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">0.8.x",
+    "npm": ">1.1.x"
+  }
+}

@@ -1,0 +1,10 @@
+Control.CanaryStart()
+	(time) =>
+		NodeA.Passalong()
+			NodeB.Passalong()
+				NodeC.Passalong()
+					Control.CanaryEnd(time, 'Path ABC')
+		NodeC.Passalong()
+			NodeB.Passalong()
+				NodeA.Passalong()
+					Control.CanaryEnd(time, 'Path CBA')
